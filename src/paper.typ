@@ -113,3 +113,9 @@
   [$square.filled.medium$]
   parbreak()
 }
+
+#let todo(content) = {
+  highlight(fill: color.hsl(0deg, 100%, 90%))[
+    #content
+  ]
+}
